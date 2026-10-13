@@ -1,6 +1,6 @@
 # Blood & Glory v1.1.6 — BGPad (Android 16 + manette)
 
-Version modifiée de **Blood & Glory** (Glu, 2011), le jeu de gladiateurs retiré du Play Store depuis longtemps. Elle est pensée pour tourner sur les téléphones récents. Elle part de l'APK **[Blood & Glory v1.1.6 (Support Android 14) d'AGMOD](https://agmod.org/blood-glory-v1-1-6-support-android-14-apk/)** (lanceur « Game Data Manager » de Mr. Robot), qui ne fonctionnait plus au-delà d'Android 15. Created with the help of Claude (AI)
+Version modifiée de **Blood & Glory** (Glu, 2011), le jeu de gladiateurs retiré du Play Store depuis longtemps. Elle est pensée pour tourner sur les téléphones récents. Elle part de l'APK **[Blood & Glory v1.1.6 (Support Android 14) d'AGMOD](https://agmod.org/blood-glory-v1-1-6-support-android-14-apk/)** (lanceur « Game Data Manager » de Mr. Robot), qui ne fonctionnait plus au-delà d'Android 15. **Created with the help of Claude (AI)**
 
 > **Téléchargement :** voir l'onglet [Releases](../../releases). Le fichier s'appelle `Blood & Glory v1.1.6 BGPad.apk`.
 
@@ -119,4 +119,4 @@ Ensuite :
 ## ⚠️ Avertissement
 Projet de fan, sans but lucratif, sans aucun lien avec Glu Mobile ni Electronic Arts. *Blood & Glory* et tous les éléments du jeu appartiennent à leurs propriétaires respectifs. Ce mod sert uniquement à préserver un jeu qui n'est plus disponible ni maintenu.
 
-**Crédits :** Glu Mobile (jeu original) • [AGMOD](https://agmod.org/blood-glory-v1-1-6-support-android-14-apk/) (APK de base *v1.1.6 Support Android 14*) • Mr. Robot (Game Data Manager) • modifications BGPad.
+**Crédits :** Glu Mobile (jeu original) • [AGMOD](https://agmod.org/blood-glory-v1-1-6-support-android-14-apk/) (APK de base *v1.1.6 Support Android 14*) • Mr. Robot (Game Data Manager) • modifications BGPad. • Created with the help of Claude (AI)
