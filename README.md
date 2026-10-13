@@ -1,24 +1,24 @@
 # Blood & Glory v1.1.6 — BGPad (Android 16 + manette)
 
-Version modifiée de **Blood & Glory** (Glu, 2011), le jeu de gladiateurs retiré du Play Store depuis longtemps. Elle est pensée pour tourner sur les téléphones récents. Elle part de l'APK **[Blood & Glory v1.1.6 (Support Android 14) d'AGMOD](https://agmod.org/blood-glory-v1-1-6-support-android-14-apk/)** (lanceur « Game Data Manager » de Mr. Robot), qui ne fonctionnait plus au-delà d'Android 15.
+Version modifiée de **Blood & Glory** (Glu, 2011), le jeu de gladiateurs retiré du Play Store depuis longtemps. Elle est pensée pour tourner sur les téléphones récents. Elle part de l'APK **[Blood & Glory v1.1.6 (Support Android 14) d'AGMOD](https://agmod.org/blood-glory-v1-1-6-support-android-14-apk/)** (lanceur « Game Data Manager » de Mr. Robot), qui ne fonctionnait plus au-delà d'Android 15. Created with the help of Claude (AI)
 
-> 📦 **Téléchargement :** voir l'onglet [Releases](../../releases). Le fichier s'appelle `Blood & Glory v1.1.6 BGPad.apk`.
+> **Téléchargement :** voir l'onglet [Releases](../../releases). Le fichier s'appelle `Blood & Glory v1.1.6 BGPad.apk`.
 
 ---
 
-## ✨ Nouveautés par rapport à la version d'origine
+##  Nouveautés par rapport à la version d'origine
 
-### 📱 Compatibilité Android 16
+###  Compatibilité Android 16
 - L'APK s'installe et se lance sur **Android 16 / One UI 8**. Avant, Android affichait « application non compatible ».
 - Plusieurs plantages liés aux versions récentes d'Android sont corrigés.
 - Le bug qui cassait la **sélection des tournois** (liste impossible à faire défiler, écran corrompu) et perturbait la **boutique** sur les processeurs récents est corrigé.
 - Testé sur **Samsung Galaxy S22 (Android 16)**.
 
-### 🖥️ Plein écran
+###  Plein écran
 - Le jeu occupe **tout l'écran**, y compris la zone de la caméra (il n'y a plus de bande noire de ce côté).
 - Sur les écrans très allongés, les bords non utilisés par les menus sont maintenant noirs, sans pixels parasites.
 
-### 🔄 Rotation dans les deux sens
+###  Rotation dans les deux sens
 - Le jeu fonctionne en paysage **des deux côtés**. On peut retourner le téléphone, même si la rotation automatique est verrouillée.
 
 ### 🎮 Compatibilité manette
@@ -41,7 +41,7 @@ Les gains en pièces d'argent (combats **et** récompenses de fin de tournoi) so
 
 La hausse est progressive (courbe quadratique) : le début du jeu reste presque identique et l'essentiel du bonus arrive vers la fin.
 
-> ⚖️ **À savoir :** sur les derniers tournois, le bonus est peut-être un peu généreux. C'est voulu. Ça laisse une marge pour régler soi-même la difficulté : on peut dépenser tout de suite dans le meilleur équipement, ou garder son argent pour un défi plus relevé. L'augmentation reste raisonnable, sans casser la progression.
+> **À savoir :** sur les derniers tournois, le bonus est peut-être un peu généreux. C'est voulu. Ça laisse une marge pour régler soi-même la difficulté : on peut dépenser tout de suite dans le meilleur équipement, ou garder son argent pour un défi plus relevé. L'augmentation reste raisonnable, sans casser la progression.
 
 ### 💾 Sauvegarde
 - À chaque lancement, une copie de votre sauvegarde est faite automatiquement dans `Android/data/com.glu.gladiator/files/savegame_export.bin`.
@@ -111,7 +111,7 @@ Ensuite :
 - Les flèches ▲▼ de la liste des tournois ne répondent pas. Faites défiler la liste en glissant le doigt.
 - La navigation à la manette dans les menus reste imparfaite (voir plus haut).
 
-## 🚀 Et ensuite ?
+## Et ensuite ?
 **D'autres mises à jour arriveront.** Corrections, améliorations de la navigation à la manette dans les menus, ajustements… N'hésitez pas à ouvrir une *issue* pour signaler un bug ou proposer une idée.
 
 ---
