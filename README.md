@@ -6,25 +6,28 @@ Version modifiée de **Blood & Glory** (Glu, 2011), le jeu de gladiateurs retir�
 
 ---
 
-##  Nouveautés par rapport à la version d'origine
+## Nouveautés par rapport à la version d'origine
 
-###  Compatibilité Android 16
+### Compatibilité Android 16
 - L'APK s'installe et se lance sur **Android 16 / One UI 8**. Avant, Android affichait « application non compatible ».
 - Plusieurs plantages liés aux versions récentes d'Android sont corrigés.
 - Le bug qui cassait la **sélection des tournois** (liste impossible à faire défiler, écran corrompu) et perturbait la **boutique** sur les processeurs récents est corrigé.
 - Testé sur **Samsung Galaxy S22 (Android 16)**.
 
-###  Plein écran
+### Plein écran
 - Le jeu occupe **tout l'écran**, y compris la zone de la caméra (il n'y a plus de bande noire de ce côté).
 - Sur les écrans très allongés, les bords non utilisés par les menus sont maintenant noirs, sans pixels parasites.
 
-###  Rotation dans les deux sens
+### Rotation dans les deux sens
 - Le jeu fonctionne en paysage **des deux côtés**. On peut retourner le téléphone, même si la rotation automatique est verrouillée.
 
 ### Compatibilité manette
 - **En combat :** compatibilité **complète**. Attaques au stick, esquives, bouclier, attaque spéciale, potions et pause se font tous à la manette.
 - **Dans les menus :** compatibilité **fonctionnelle mais pas parfaite**. On navigue avec un curseur, déplacé au stick gauche ou de bouton en bouton au D-pad. Certains écrans restent plus pratiques au doigt (par exemple, faire défiler la liste des tournois).
 - Le tactile reste utilisable à tout moment, en parallèle de la manette.
+- **Icônes de boutons au choix** : Xbox (A B X Y, LB RB), PlayStation (✕ ○ □ △, L1 R1) ou Switch, réglables dans **Options → Settings → Controller**. Les icônes affichées en combat correspondent aux vraies touches (LB / RB pour les esquives…).
+- **Inverser A/B et X/Y** (Options → Settings → Button Layout) : pour les manettes qui envoient les boutons selon leur étiquette Nintendo.
+- **Masquer les icônes en combat** (Options → Settings → Button Icons) : le HUD reste épuré, la manette fonctionne toujours.
 - Testé avec une **GameSir X2s** (disposition Xbox). Les autres manettes Bluetooth ou USB-C devraient fonctionner aussi.
 
 ### Nouveau système de récompenses (pièces d'argent)
@@ -43,7 +46,7 @@ La hausse est progressive (courbe quadratique) : le début du jeu reste presque 
 
 > **À savoir :** sur les derniers tournois, le bonus est peut-être un peu généreux. C'est voulu. Ça laisse une marge pour régler soi-même la difficulté : on peut dépenser tout de suite dans le meilleur équipement, ou garder son argent pour un défi plus relevé. L'augmentation reste raisonnable, sans casser la progression.
 
-### 💾 Sauvegarde
+### Sauvegarde
 - À chaque lancement, une copie de votre sauvegarde est faite automatiquement dans `Android/data/com.glu.gladiator/files/savegame_export.bin`.
 - Pour transférer une partie d'un autre téléphone, placez le fichier dans ce même dossier sous le nom `savegame_import.bin`. Il sera importé au lancement suivant, et l'ancienne sauvegarde est conservée.
 
@@ -66,26 +69,36 @@ La hausse est progressive (courbe quadratique) : le début du jeu reste presque 
 | **A** | Passer les cinématiques |
 | **Start** | Pause |
 
-> En mode manette, le jeu affiche les symboles PlayStation de l'époque (□ ○ ✕ △) : □ = LB, ○ = RB, ✕ = A, △ = X.
+> Les icônes affichées à l'écran suivent le style choisi dans les options (Xbox par défaut).
 
 ### Dans les menus
 
 | Bouton | Action |
 |---|---|
 | **Stick gauche** | Déplacer le curseur |
-| **D-pad** | Sauter de bouton en bouton |
+| **D-pad** | Sauter de bouton en bouton (les listes défilent toutes seules : options, tournois) |
 | **A** | Valider |
 | **B** | Retour |
+
+### Dans la boutique
+
+| Bouton | Action |
+|---|---|
+| **D-pad ← / →** | Objet précédent / suivant (maintenir pour défiler) |
+| **LB / RB** | Catégorie précédente / suivante |
+| **Y** | Ouvrir / fermer le menu des catégories |
+| ↳ **D-pad ↑ / ↓** puis **A** | Choisir une catégorie |
+| **D-pad ↑ / ↓** | Atteindre les autres boutons (Stats, OK…) |
 
 ---
 
 ## Installation
 
-1. **Désinstallez** toute autre version de Blood & Glory. La signature est différente, donc l'installation par-dessus est impossible. ⚠️ Pensez à récupérer votre sauvegarde avant (voir plus haut).
+1. **Désinstallez** toute autre version de Blood & Glory. La signature est différente, donc l'installation par-dessus est impossible. Pensez à récupérer votre sauvegarde avant (voir plus haut).
 2. Installez `Blood & Glory v1.1.6 BGPad.apk`. Autorisez l'installation depuis des sources inconnues si Android le demande.
 3. Lancez le jeu et suivez le petit tutoriel ci-dessous (**à faire une seule fois**).
 
-### 🛠️ Premier lancement : installer les données du jeu (OBB)
+### Premier lancement : installer les données du jeu (OBB)
 
 Au premier lancement, le **Game Data Manager** s'affiche pour installer les données du jeu.
 
@@ -116,7 +129,7 @@ Ensuite :
 
 ---
 
-## ⚠️ Avertissement
+## Avertissement
 Projet de fan, sans but lucratif, sans aucun lien avec Glu Mobile ni Electronic Arts. *Blood & Glory* et tous les éléments du jeu appartiennent à leurs propriétaires respectifs. Ce mod sert uniquement à préserver un jeu qui n'est plus disponible ni maintenu.
 
 **Crédits :** Glu Mobile (jeu original) • [AGMOD](https://agmod.org/blood-glory-v1-1-6-support-android-14-apk/) (APK de base *v1.1.6 Support Android 14*) • Mr. Robot (Game Data Manager) • modifications BGPad. • Created with the help of Claude (AI)
