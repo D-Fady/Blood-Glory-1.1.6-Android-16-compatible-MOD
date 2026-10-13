@@ -21,13 +21,13 @@ Version modifiée de **Blood & Glory** (Glu, 2011), le jeu de gladiateurs retir�
 ###  Rotation dans les deux sens
 - Le jeu fonctionne en paysage **des deux côtés**. On peut retourner le téléphone, même si la rotation automatique est verrouillée.
 
-### 🎮 Compatibilité manette
+### Compatibilité manette
 - **En combat :** compatibilité **complète**. Attaques au stick, esquives, bouclier, attaque spéciale, potions et pause se font tous à la manette.
 - **Dans les menus :** compatibilité **fonctionnelle mais pas parfaite**. On navigue avec un curseur, déplacé au stick gauche ou de bouton en bouton au D-pad. Certains écrans restent plus pratiques au doigt (par exemple, faire défiler la liste des tournois).
 - Le tactile reste utilisable à tout moment, en parallèle de la manette.
 - Testé avec une **GameSir X2s** (disposition Xbox). Les autres manettes Bluetooth ou USB-C devraient fonctionner aussi.
 
-### 💰 Nouveau système de récompenses (pièces d'argent)
+### Nouveau système de récompenses (pièces d'argent)
 Dans la version d'origine, les gains en pièces d'argent ne suivaient pas les prix de l'équipement en fin de partie. Sur les derniers tournois, il fallait repasser par les anciennes arènes pour gagner de quoi s'équiper (ou payer).
 
 Les gains en pièces d'argent (combats **et** récompenses de fin de tournoi) sont maintenant **multipliés selon votre avancement** dans le jeu :
@@ -49,7 +49,7 @@ La hausse est progressive (courbe quadratique) : le début du jeu reste presque 
 
 ---
 
-## 🕹️ Commandes manette
+## Commandes manette
 
 ### En combat
 
@@ -79,7 +79,7 @@ La hausse est progressive (courbe quadratique) : le début du jeu reste presque 
 
 ---
 
-## 📥 Installation
+## Installation
 
 1. **Désinstallez** toute autre version de Blood & Glory. La signature est différente, donc l'installation par-dessus est impossible. ⚠️ Pensez à récupérer votre sauvegarde avant (voir plus haut).
 2. Installez `Blood & Glory v1.1.6 BGPad.apk`. Autorisez l'installation depuis des sources inconnues si Android le demande.
@@ -107,7 +107,7 @@ Ensuite :
 
 ---
 
-## 🐞 Problèmes connus
+## Problèmes connus
 - Les flèches ▲▼ de la liste des tournois ne répondent pas. Faites défiler la liste en glissant le doigt.
 - La navigation à la manette dans les menus reste imparfaite (voir plus haut).
 
